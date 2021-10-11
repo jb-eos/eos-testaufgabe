@@ -1,0 +1,25 @@
+{
+    "index": 9,
+    "users": {
+        "0": {
+            "id": 1,
+            "firstName": "FirstName1",
+            "lastName": "LastName1"
+        },
+        "4": {
+            "id": 5,
+            "firstName": "Jane",
+            "lastName": "Doe"
+        },
+        "5": {
+            "id": 6,
+            "firstName": "FirstName6",
+            "lastName": "LastName6"
+        },
+        "6": {
+            "id": 9,
+            "firstName": "Max",
+            "lastName": "Mustermann"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  web:
+    image: nginx:latest
+    volumes:
+      - .:/var/www/html/
+      - ./docker/nginx:/etc/nginx/conf.d
+    ports:
+      - '8080:80'
+  php:
+    image: php:8.0-fpm
+    volumes:
+      - .:/var/www/html/
